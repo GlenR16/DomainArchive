@@ -18,6 +18,7 @@ const DomainDetails = lazy(() => import("./pages/DomainDetails.jsx"));
 const router = createHashRouter([
 	{
 		path: "/",
+        basename:"/DomainArchive",
 		element: <Root />,
 		errorElement: <Error />,
 		children: [
@@ -87,7 +88,7 @@ const router = createHashRouter([
 ]);
 
 function App() {
-	return <RouterProvider router={router} />;
+	return <RouterProvider router={router} basename='/DomainArchive/' />;
 }
 
 export default App;
