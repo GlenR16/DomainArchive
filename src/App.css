@@ -1,0 +1,10 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes color-change {
+    0% { color: oklch(var(--p)); }
+    50% { color: oklch(var(--s)); }
+    100% { color: oklch(var(--p)); }
+}
