@@ -11,7 +11,7 @@ export default function Signup() {
 
 	useEffect(() => {
 		if (username) {
-			navigate("/dashboard");
+			navigate("/domain");
 		}
 	}, []);
 

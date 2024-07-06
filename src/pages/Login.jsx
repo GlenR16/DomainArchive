@@ -11,7 +11,7 @@ export default function Login() {
 
 	useEffect(() => {
 		if (username) {
-			navigate("/dashboard");
+			navigate("/domain");
 		}
 	}, []);
 

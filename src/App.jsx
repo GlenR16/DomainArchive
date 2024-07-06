@@ -14,6 +14,7 @@ const Signup = lazy(() => import("./pages/Signup.jsx"));
 const Profile = lazy(() => import("./pages/Profile.jsx"));
 const Domain = lazy(() => import("./pages/Domain.jsx"));
 const DomainDetails = lazy(() => import("./pages/DomainDetails.jsx"));
+const About = lazy(() => import("./pages/About.jsx"));
 
 const router = createHashRouter([
 	{
@@ -31,6 +32,14 @@ const router = createHashRouter([
                 element: (
                     <Suspense fallback={<Loading />}>
                         <Documentation />
+                    </Suspense>
+                ),
+            },
+            {
+                path: "about",
+                element: (
+                    <Suspense fallback={<Loading />}>
+                        <About />
                     </Suspense>
                 ),
             },
