@@ -132,7 +132,7 @@ export default function Documentation() {
                         <div>
                             Integration with eureka is made simple due to the stucture of the service. <br />
                             The property <b>eureka.client.serviceUrl.defaultZone</b> should be passed the url of our service. <br />
-                            The url will be in the format <i>https://username:domain_token@api_url/eureka/</i>
+                            The url will be in the format <i>https://username:domain_token@domainarchive.pythonanywhere.com/eureka/</i>
                         </div>
 					</div>
 				</div>
